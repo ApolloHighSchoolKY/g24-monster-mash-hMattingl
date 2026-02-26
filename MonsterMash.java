@@ -27,5 +27,14 @@ public class MonsterMash{
     System.out.println(betelgeuse.kill());
 
     System.out.println(betelgeuse.possess("table"));
+
+    Skeleton skelly = new Skeleton();
+
+    System.out.println(skelly);
+
+    skelly = new Skeleton("Giant Skelly");
+
+    System.out.println(skelly);
+
   }
 }

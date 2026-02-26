@@ -12,7 +12,7 @@ public class Ghost extends Monster {
         if(ability.toLowerCase().equals("possession"))
             return getName() + " possessed the " + thing + " now, it's spooky \n";
         if(ability.toLowerCase().equals("intangibility"))
-            return getName() + " tried to possess " + thing + " but just fell though it";
+            return getName() + " tried to possess the " + thing + " but just fell though it";
         return getName() + " can't possess things, they have " + ability;
     }
 
